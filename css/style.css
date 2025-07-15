@@ -1,0 +1,64 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+#membros, #tarefas, #sobre {
+    padding: 40px;
+    text-align: center;
+}
+
+.membro {
+    display: inline-block;
+    margin: 20px;
+    max-width: 200px;
+}
+
+.membro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.membro .redes a {
+    text-decoration: none;
+    color: #004080;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid #004080;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background: hsl(210, 40%, 48%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
